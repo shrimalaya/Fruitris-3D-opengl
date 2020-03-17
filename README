@@ -1,0 +1,20 @@
+//Assignment 2
+
+Extra Features: Press ‘p’ for ‘pause’. All input in “upper caps” work as well.
+
+
+Information:
+— Only the Camera is allowed to move while the game is paused or stopped.
+— The tetris grid is always fully visible i.e. it is never perpendicular to the camera
+— The set frame-rate is currently 3 fps (Set in the timer function in main.cpp)
+— When the game stops because of grey tile collision, it can be restarted using “r” or “R”.
+— The robotic arm can reach each and every position on the grid
+— The tetris block attached to the robotic arm is snapped to the nearest cube
+
+— Makefile works with main.cpp which includes Play.h, Shape.h and Robot.h
+— Shape.h  defines the object (tetris tiles)
+— Robot.h  defines the robot in the game
+— Play.h defines keyboard functions and run sequence of the game
+— Comments are included to explain the code’s working
+
+— All the mentioned features in the assignment description have been tested and are working correctly as per my testing
